@@ -9,6 +9,7 @@ dependencies:
 test:
   override:
     - cd neoj-builder && make build
+    - cd neoj-compiler && make build
 
 deployment:
   feature-branch:

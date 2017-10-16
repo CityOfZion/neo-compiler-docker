@@ -10,6 +10,7 @@ test:
   override:
     - cd neoj-builder && make build
     - cd neoj-compiler && git submodule update --init
+    - ls -l ./neoj-compiler/submodule-neo-compiler
     - cd neoj-compiler && make build
 
 deployment:

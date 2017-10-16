@@ -15,6 +15,9 @@
   <a href="https://github.com/CityOfZion/neo-compiler-docker/releases">
     <img src="https://img.shields.io/github/tag/CityOfZion/neo-compiler-docker.svg?style=flat">
   </a>
+  <a href="https://circleci.com/gh/CityOfZion/neo-compiler-docker/tree/master">
+    <img src="https://circleci.com/gh/CityOfZion/neo-compiler-docker/tree/master.svg?style=shield">
+  </a>
 </p>
 
 ## What?

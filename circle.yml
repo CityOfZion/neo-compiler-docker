@@ -9,6 +9,9 @@ dependencies:
 test:
   override:
     - cd neoj-builder && make build
+    - cd neoj-compiler && git submodule update --init
+    - cd neoj-compiler && make publish-neoj
+    - cd neoj-compiler && make build
 
 deployment:
   feature-branch:

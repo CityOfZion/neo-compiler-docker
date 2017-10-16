@@ -23,6 +23,11 @@
 - Each provide a cross-platform mechanism for compiling [NEO](https://neo.org/) smart contracts
 - No need to setup NEO development environment 🎉
 
+## Usage
+
+Each image has a README within the directory, which describes how to use it. Please note that 
+for security reasons, all Docker images have to first be built locally.
+
 ## Images
 
 ### neoj-builder
@@ -33,8 +38,15 @@ This image builds Java (`.java`) code into Java bytecode (`.class`).
 
 This image compiles Java bytecode (`.class`) into NEO AVM code (`.avm`).
 
-## Usage
+## Help
 
-Each image has a README within the directory, which describes how to use it. Please note that 
-for security reasons, all Docker images have to first be built locally.
+- Open a new [issue](https://github.com/CityOfZion/neo-compiler-docker/issues/new) if you encountered a problem.
+- Or ping **@revett** on the [NEO Slack](http://slack.cityofzion.io/).
+- Submitting PRs to the project is always welcome! 🎉
+- Check the [Changelog](https://github.com/CityOfZion/neo-compiler-docker/blob/master/CHANGELOG.md) for recent changes.
 
+## License
+
+- Open-source [MIT](https://github.com/CityOfZion/neo-compiler-docker/blob/master/LICENSE).
+- Main author is [@revett](https://github.com/revett).
+- This project adheres to the [Contributor Covenant Code of Conduct](https://github.com/goreleaser/goreleaser/blob/master/CODE_OF_CONDUCT.md).

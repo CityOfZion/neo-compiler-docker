@@ -32,7 +32,7 @@ for security reasons, all Docker images have to first be built locally.
 
 ### neoj-builder
 
-This image builds Java (`.java`) code into Java bytecode (`.class`).
+This image builds Java code (`.java`) into Java bytecode (`.class`).
 
 ### neoj-compiler
 

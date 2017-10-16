@@ -8,7 +8,7 @@ This image compiles Java bytecode (.class) into NEO AVM code (.avm).
 make update-submodule
 ```
 ```
-publish-neoj
+make publish-neoj
 ```
 ```
 make build

@@ -11,7 +11,7 @@ make build
 ## Usage
 
 ```
-docker run -it --rm -v '/path/to/src:/build/files' coz/neoj-builder MyClass.java
+docker run -it --rm -v '/path/to/src:/build/files' coz/neoj-builder HelloWorld.java
 ```
 
-Where `/path/to/src` is an absolute path to where `MyClass.java` is located.
+Where `/path/to/src` is an absolute path to where `HelloWorld.java` is located.

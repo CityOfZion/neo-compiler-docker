@@ -28,6 +28,12 @@
 
 ## Usage
 
+Clone the repo, including **submodules**:
+
+```
+git clone --recursive git@github.com:CityOfZion/neo-compiler-docker.git
+```
+
 Each image has a README within the directory, which describes how to use it. Please note that 
 for security reasons, all Docker images have to first be built locally.
 

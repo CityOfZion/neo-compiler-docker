@@ -26,7 +26,7 @@
 - Each provide a cross-platform mechanism for compiling [NEO](https://neo.org/) smart contracts
 - No need to setup NEO development environment 🎉
 
-## Usage
+## Setup
 
 Clone the repo, including **submodules**:
 
@@ -34,8 +34,20 @@ Clone the repo, including **submodules**:
 git clone --recursive git@github.com:CityOfZion/neo-compiler-docker.git
 ```
 
-Each image has a README within the directory, which describes how to use it. Please note that 
-for security reasons, all Docker images have to first be built locally.
+If you have already cloned the project, then use:
+
+```
+git submodule init
+```
+```
+git submodule update
+```
+
+## Usage
+
+This repo includes a number of different Docker images. The [Images](#images) section below describes what each Docker image does.
+
+Each image has a README within the directory, which describes how to use it. Please note that for security reasons, all Docker images have to first be built locally.
 
 ## Images
 

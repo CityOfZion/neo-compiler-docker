@@ -1,4 +1,5 @@
 FROM java:8
+LABEL maintainer="@revett"
 
 RUN mkdir /build
 RUN mkdir /build/files

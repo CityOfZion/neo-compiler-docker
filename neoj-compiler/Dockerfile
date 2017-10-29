@@ -1,4 +1,5 @@
 FROM microsoft/aspnetcore:1.0.4
+LABEL maintainer="@revett"
 
 WORKDIR /compile/src
 

@@ -51,6 +51,10 @@ Each image has a README within the directory, which describes how to use it. Ple
 
 ## Images
 
+### neo-boa-compiler
+
+This image builds Python code (`.py`) into NEO AVM code (`.avm`), using the [neo-boa](https://github.com/CityOfZion/neo-boa) compiler.
+
 ### neoj-builder
 
 This image builds Java code (`.java`) into Java bytecode (`.class`).

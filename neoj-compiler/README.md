@@ -1,6 +1,6 @@
 # neoj-compiler
 
-This image compiles Java bytecode (.class) into NEO AVM code (.avm).
+This image compiles Java bytecode (.class) into NEO AVM code (`.avm`).
 
 ## Setup
 
